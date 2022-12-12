@@ -1,0 +1,59 @@
+.slider-container {
+  background-image: url(../../images/about-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: relative;
+  min-height: 800px;
+  text-align: center;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.about-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.slider-container h1 {
+  font-size: 45px;
+  margin-bottom: 3rem;
+}
+
+.slider-text {
+  width: 70%;
+  margin: auto auto 0 auto;
+}
+
+.control-btn {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 17px;
+  position: absolute;
+}
+
+.left {
+  top: 50%;
+  left: 3%;
+}
+
+.right {
+  top: 50%;
+  right: 3%;
+}
+
+@media (max-width: 700px) {
+  .slider-container h1 {
+    font-size: 28px;
+  }
+
+  .slider-container p {
+    font-size: 15px;
+  }
+}

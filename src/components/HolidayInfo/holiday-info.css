@@ -1,0 +1,82 @@
+.holiday-section {
+  /* background-color: rgba(44, 43, 43); */
+  padding: 4rem 0;
+}
+
+.holiday-info-title h2 {
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.holiday-container {
+  max-width: 980px;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.holiday-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  gap: 5rem;
+}
+
+.h-left {
+  padding: 0 2rem;
+  display: grid;
+  place-items: center;
+}
+
+.h-right {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.h-right h1 {
+  font-size: 45px;
+  margin-bottom: 1.5rem;
+}
+
+.h-right-content {
+  padding-left: 1rem;
+}
+
+.holiday-info-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.holiday-info-title h2 {
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.shape {
+  width: 50px;
+  margin-right: 0.5rem;
+}
+
+.h-right p {
+  margin-bottom: 1rem;
+}
+
+#read-more {
+  color: var(--title-color);
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .holiday-info-title h2 {
+    font-size: 15px;
+  }
+
+  .shape {
+    display: none;
+  }
+
+  .h-right-content h1 {
+    font-size: 36px;
+  }
+}

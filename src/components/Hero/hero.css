@@ -1,0 +1,109 @@
+.hero {
+  min-height: 100vh;
+  background-image: url(../../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  inset: 0;
+  padding-top: 5rem;
+  background: rgba(0, 0, 0, 47%);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.socials-section {
+  display: flex;
+  gap: 1rem;
+  rotate: 90deg;
+  transform-origin: 31% 37%;
+  max-width: fit-content;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icon {
+  rotate: -90deg;
+}
+
+.hero-title {
+  display: flex;
+  color: var(--title-color);
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content {
+  display: flex;
+  gap: 4rem;
+  padding: 0 1.5rem;
+}
+
+.hero-title h1 {
+  letter-spacing: 0.5rem;
+  font-size: 18px;
+}
+
+.hero-content-text {
+  padding-left: 1rem;
+}
+
+.heading {
+  font-size: 55px;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.heading span {
+  font-weight: 800;
+}
+
+.scroll-down {
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+#scroll-down-icon {
+  animation: animate 1.5s infinite alternate-reverse;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    transform: translateY(5px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-content-text {
+    text-align: center;
+    margin: auto;
+  }
+  .hero-title {
+    justify-content: center;
+  }
+}
