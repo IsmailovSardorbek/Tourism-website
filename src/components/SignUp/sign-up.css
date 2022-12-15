@@ -1,0 +1,141 @@
+.sign-up-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.ready {
+  color: #fff;
+  text-decoration: none;
+}
+
+.get-started {
+  text-decoration: none;
+  color: #000;
+  background: var(--button-color);
+  padding: 0.7rem 2rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+.s-h-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.s-h-left {
+  margin-bottom: 1rem;
+}
+
+.email-form {
+  margin-bottom: 2rem;
+  max-width: 300px;
+}
+
+.email-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+}
+
+.email-input {
+  background: transparent;
+  border: 0;
+  padding: 1rem 5rem 1rem 0.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  outline: 0;
+}
+
+.form-submit {
+  background: var(--button-color);
+  border: 0;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-radius: 0.3rem 0.3rem 0 0;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.sign-up ul {
+  list-style: none;
+}
+
+.sign-up li {
+  margin-bottom: 0.7rem;
+}
+
+.service-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sign-up-links {
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.services-links,
+.about-links,
+.contact-links {
+  margin-bottom: 2rem;
+}
+
+.site-logo {
+  vertical-align: middle;
+}
+
+.sign-up-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0.7rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.b-right {
+  display: flex;
+  gap: 2rem;
+  font-size: 20px;
+  align-items: center;
+}
+
+.b-right a {
+  color: #fff;
+}
+
+.b-left {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.b-left a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 550px) {
+  .sign-up-links {
+    flex-direction: column;
+  }
+
+  .sign-up-bottom {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+}

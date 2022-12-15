@@ -91,6 +91,10 @@
   color: #fff;
 }
 
+.nav-menu.show > body {
+  overflow-y: hidden !important;
+}
+
 @media (max-width: 700px) {
   .menu-toggler {
     display: block;

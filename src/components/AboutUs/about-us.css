@@ -9,6 +9,8 @@
   display: flex;
   justify-content: end;
   flex-direction: column;
+  padding-bottom: 3rem;
+  margin-bottom: 8rem;
 }
 
 .about-logo {
@@ -36,6 +38,7 @@
   color: #fff;
   font-size: 17px;
   position: absolute;
+  cursor: pointer;
 }
 
 .left {
@@ -48,6 +51,12 @@
   right: 3%;
 }
 
+.about-container {
+  max-width: 980px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
 @media (max-width: 700px) {
   .slider-container h1 {
     font-size: 28px;
@@ -55,5 +64,9 @@
 
   .slider-container p {
     font-size: 15px;
+  }
+
+  .slider-container {
+    min-height: 500px;
   }
 }

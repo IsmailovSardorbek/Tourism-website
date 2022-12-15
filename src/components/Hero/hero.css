@@ -54,16 +54,11 @@
 .hero-content {
   display: flex;
   gap: 4rem;
-  padding: 0 1.5rem;
 }
 
 .hero-title h1 {
   letter-spacing: 0.5rem;
   font-size: 18px;
-}
-
-.hero-content-text {
-  padding-left: 1rem;
 }
 
 .heading {
@@ -85,6 +80,10 @@
 
 #scroll-down-icon {
   animation: animate 1.5s infinite alternate-reverse;
+}
+
+.h-image {
+  max-width: 320px;
 }
 
 @keyframes animate {

@@ -10,7 +10,7 @@ export default function HolidayInfo() {
         <div className="holiday-container">
           <div className="holiday-wrapper">
             <div className="h-left">
-              <img src={holidayImage} />
+              <img src={holidayImage} className="h-image" />
             </div>
             <div className="h-right">
               <div className="h-right-content">

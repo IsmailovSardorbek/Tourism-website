@@ -7,7 +7,7 @@ export default function AboutUs() {
   return (
     <Fragment>
       <div className="about" id="about">
-        <div className="holiday-container">
+        <div className="about-container">
           <div className="slider-container">
             <div className="slider-text">
               <div className="about-logo">

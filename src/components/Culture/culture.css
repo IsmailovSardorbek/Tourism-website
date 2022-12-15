@@ -1,0 +1,67 @@
+.c-title {
+  display: flex;
+  align-items: center;
+  color: var(--title-color);
+  text-transform: uppercase;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.c-container {
+  max-width: 980px;
+  margin: auto;
+}
+
+.c-title img {
+  width: 55px;
+}
+
+.c-title h2 {
+  letter-spacing: 5px;
+  line-height: 1.1;
+  font-size: 15px;
+}
+
+#culture {
+  margin-bottom: 8rem;
+}
+
+.c-left h1 {
+  font-size: 45px;
+  margin-bottom: 1.5rem;
+}
+
+.c-left p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.c-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 6rem;
+}
+
+.c-img {
+  max-width: 300px;
+}
+
+.c-left {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.c-right {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .c-left h1 {
+    font-size: 35px;
+  }
+  .c-left h2 {
+    font-size: 15px;
+  }
+}
